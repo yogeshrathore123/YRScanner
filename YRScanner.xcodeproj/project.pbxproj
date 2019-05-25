@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E9AAEED622835C8D8824ABB /* Pods_YRScannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF85FC920269A715257ADC8 /* Pods_YRScannerUITests.framework */; };
+		7DFEF55D60BAEC5B9A6F4F9A /* Pods_YRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FF31E3ADFAD20534E06363 /* Pods_YRScanner.framework */; };
+		7E1AA29F129D53803833BF71 /* Pods_YRScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E9E803781ED29588D0C09 /* Pods_YRScannerTests.framework */; };
 		ABA953D922997AFE00702889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953D822997AFE00702889 /* AppDelegate.swift */; };
 		ABA953DB22997AFE00702889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953DA22997AFE00702889 /* ViewController.swift */; };
 		ABA953DE22997AFE00702889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA953DC22997AFE00702889 /* Main.storyboard */; };
@@ -16,6 +19,8 @@
 		ABA953F122997AFF00702889 /* YRScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953F022997AFF00702889 /* YRScannerTests.swift */; };
 		ABA953FC22997AFF00702889 /* YRScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953FB22997AFF00702889 /* YRScannerUITests.swift */; };
 		ABA9540A22997B5400702889 /* YRQRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9540922997B5400702889 /* YRQRCodeScanner.swift */; };
+		ABA9542C2299973D00702889 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9542B2299973D00702889 /* QRCodeScannerViewController.swift */; };
+		ABA9542E2299974E00702889 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9542D2299974E00702889 /* DocumentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A98E5FB2E05BAD2206D43F /* Pods-YRScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-YRScannerTests/Pods-YRScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22D68BF4A6D7D1E70A36E355 /* Pods-YRScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScannerUITests.release.xcconfig"; path = "Target Support Files/Pods-YRScannerUITests/Pods-YRScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BF85FC920269A715257ADC8 /* Pods_YRScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YRScannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		393705D6F637FD60CD55BD52 /* Pods-YRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScanner.debug.xcconfig"; path = "Target Support Files/Pods-YRScanner/Pods-YRScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		81FF31E3ADFAD20534E06363 /* Pods_YRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BEE65D596FB140F37FF189 /* Pods-YRScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScannerTests.release.xcconfig"; path = "Target Support Files/Pods-YRScannerTests/Pods-YRScannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABA953D522997AFE00702889 /* YRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA953D822997AFE00702889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA953DA22997AFE00702889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +62,11 @@
 		ABA953FB22997AFF00702889 /* YRScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRScannerUITests.swift; sourceTree = "<group>"; };
 		ABA953FD22997AFF00702889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA9540922997B5400702889 /* YRQRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRQRCodeScanner.swift; sourceTree = "<group>"; };
+		ABA9542B2299973D00702889 /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		ABA9542D2299974E00702889 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		B574572A2E4FE16BDEF0E3B0 /* Pods-YRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScanner.release.xcconfig"; path = "Target Support Files/Pods-YRScanner/Pods-YRScanner.release.xcconfig"; sourceTree = "<group>"; };
+		BD6E9E803781ED29588D0C09 /* Pods_YRScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YRScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD065F9782B8E23D0CB69F2 /* Pods-YRScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRScannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-YRScannerUITests/Pods-YRScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFEF55D60BAEC5B9A6F4F9A /* Pods_YRScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1AA29F129D53803833BF71 /* Pods_YRScannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9AAEED622835C8D8824ABB /* Pods_YRScannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263ED8291C2208A146CDC674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81FF31E3ADFAD20534E06363 /* Pods_YRScanner.framework */,
+				BD6E9E803781ED29588D0C09 /* Pods_YRScannerTests.framework */,
+				2BF85FC920269A715257ADC8 /* Pods_YRScannerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8F5B51FB825C5888461281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393705D6F637FD60CD55BD52 /* Pods-YRScanner.debug.xcconfig */,
+				B574572A2E4FE16BDEF0E3B0 /* Pods-YRScanner.release.xcconfig */,
+				14A98E5FB2E05BAD2206D43F /* Pods-YRScannerTests.debug.xcconfig */,
+				97BEE65D596FB140F37FF189 /* Pods-YRScannerTests.release.xcconfig */,
+				EFD065F9782B8E23D0CB69F2 /* Pods-YRScannerUITests.debug.xcconfig */,
+				22D68BF4A6D7D1E70A36E355 /* Pods-YRScannerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ABA953CC22997AFE00702889 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				ABA953EF22997AFF00702889 /* YRScannerTests */,
 				ABA953FA22997AFF00702889 /* YRScannerUITests */,
 				ABA953D622997AFE00702889 /* Products */,
+				8F8F5B51FB825C5888461281 /* Pods */,
+				263ED8291C2208A146CDC674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +148,8 @@
 			children = (
 				ABA953D822997AFE00702889 /* AppDelegate.swift */,
 				ABA953DA22997AFE00702889 /* ViewController.swift */,
+				ABA9542B2299973D00702889 /* QRCodeScannerViewController.swift */,
+				ABA9542D2299974E00702889 /* DocumentViewController.swift */,
 				ABA9540922997B5400702889 /* YRQRCodeScanner.swift */,
 				ABA953DC22997AFE00702889 /* Main.storyboard */,
 				ABA953E222997AFF00702889 /* Assets.xcassets */,
@@ -138,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA9540022997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScanner" */;
 			buildPhases = (
+				A8C734D8DFB42468CBD7E8CB /* [CP] Check Pods Manifest.lock */,
 				ABA953D122997AFE00702889 /* Sources */,
 				ABA953D222997AFE00702889 /* Frameworks */,
 				ABA953D322997AFE00702889 /* Resources */,
+				AFF7E3558B3D6CD6D5095FC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA9540322997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerTests" */;
 			buildPhases = (
+				48CECB1BAEA6FBE4E13DCCCC /* [CP] Check Pods Manifest.lock */,
 				ABA953E822997AFF00702889 /* Sources */,
 				ABA953E922997AFF00702889 /* Frameworks */,
 				ABA953EA22997AFF00702889 /* Resources */,
@@ -173,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA9540622997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerUITests" */;
 			buildPhases = (
+				2A2FDFFAFBC500499561C624 /* [CP] Check Pods Manifest.lock */,
 				ABA953F322997AFF00702889 /* Sources */,
 				ABA953F422997AFF00702889 /* Frameworks */,
 				ABA953F522997AFF00702889 /* Resources */,
@@ -257,6 +308,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A2FDFFAFBC500499561C624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YRScannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48CECB1BAEA6FBE4E13DCCCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YRScannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C734D8DFB42468CBD7E8CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YRScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF7E3558B3D6CD6D5095FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YRScanner/Pods-YRScanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WeScan/WeScan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeScan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YRScanner/Pods-YRScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABA953D122997AFE00702889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +406,8 @@
 			files = (
 				ABA953DB22997AFE00702889 /* ViewController.swift in Sources */,
 				ABA953D922997AFE00702889 /* AppDelegate.swift in Sources */,
+				ABA9542C2299973D00702889 /* QRCodeScannerViewController.swift in Sources */,
+				ABA9542E2299974E00702889 /* DocumentViewController.swift in Sources */,
 				ABA953E122997AFE00702889 /* YRScanner.xcdatamodeld in Sources */,
 				ABA9540A22997B5400702889 /* YRQRCodeScanner.swift in Sources */,
 			);
@@ -438,6 +582,7 @@
 		};
 		ABA9540122997AFF00702889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393705D6F637FD60CD55BD52 /* Pods-YRScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +602,7 @@
 		};
 		ABA9540222997AFF00702889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B574572A2E4FE16BDEF0E3B0 /* Pods-YRScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +622,7 @@
 		};
 		ABA9540422997AFF00702889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A98E5FB2E05BAD2206D43F /* Pods-YRScannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +643,7 @@
 		};
 		ABA9540522997AFF00702889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BEE65D596FB140F37FF189 /* Pods-YRScannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +664,7 @@
 		};
 		ABA9540722997AFF00702889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD065F9782B8E23D0CB69F2 /* Pods-YRScannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +684,7 @@
 		};
 		ABA9540822997AFF00702889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D68BF4A6D7D1E70A36E355 /* Pods-YRScannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

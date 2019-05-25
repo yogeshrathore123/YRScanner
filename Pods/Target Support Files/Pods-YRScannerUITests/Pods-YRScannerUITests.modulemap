@@ -1,0 +1,6 @@
+framework module Pods_YRScannerUITests {
+  umbrella header "Pods-YRScannerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

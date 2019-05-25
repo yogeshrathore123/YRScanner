@@ -1,0 +1,6 @@
+framework module Pods_YRScannerTests {
+  umbrella header "Pods-YRScannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

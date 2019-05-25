@@ -1,0 +1,16 @@
+PODS:
+  - WeScan (1.1.0)
+
+DEPENDENCIES:
+  - WeScan
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WeScan
+
+SPEC CHECKSUMS:
+  WeScan: 7ebe08c966fbd7321be2be1a962423c237e3e2ec
+
+PODFILE CHECKSUM: af73bffc5b73b02d891a6ed9cf952a10f40b0764
+
+COCOAPODS: 1.6.1
