@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA953D922997AFE00702889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953D822997AFE00702889 /* AppDelegate.swift */; };
+		ABA953DB22997AFE00702889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953DA22997AFE00702889 /* ViewController.swift */; };
+		ABA953DE22997AFE00702889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA953DC22997AFE00702889 /* Main.storyboard */; };
+		ABA953E122997AFE00702889 /* YRScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA953DF22997AFE00702889 /* YRScanner.xcdatamodeld */; };
+		ABA953E322997AFF00702889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA953E222997AFF00702889 /* Assets.xcassets */; };
+		ABA953E622997AFF00702889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA953E422997AFF00702889 /* LaunchScreen.storyboard */; };
+		ABA953F122997AFF00702889 /* YRScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953F022997AFF00702889 /* YRScannerTests.swift */; };
+		ABA953FC22997AFF00702889 /* YRScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA953FB22997AFF00702889 /* YRScannerUITests.swift */; };
+		ABA9540A22997B5400702889 /* YRQRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9540922997B5400702889 /* YRQRCodeScanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA953ED22997AFF00702889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA953CD22997AFE00702889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA953D422997AFE00702889;
+			remoteInfo = YRScanner;
+		};
+		ABA953F822997AFF00702889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA953CD22997AFE00702889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA953D422997AFE00702889;
+			remoteInfo = YRScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA953D522997AFE00702889 /* YRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA953D822997AFE00702889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA953DA22997AFE00702889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA953DD22997AFE00702889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA953E022997AFE00702889 /* YRScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YRScanner.xcdatamodel; sourceTree = "<group>"; };
+		ABA953E222997AFF00702889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA953E522997AFF00702889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA953E722997AFF00702889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA953EC22997AFF00702889 /* YRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA953F022997AFF00702889 /* YRScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRScannerTests.swift; sourceTree = "<group>"; };
+		ABA953F222997AFF00702889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA953F722997AFF00702889 /* YRScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA953FB22997AFF00702889 /* YRScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRScannerUITests.swift; sourceTree = "<group>"; };
+		ABA953FD22997AFF00702889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA9540922997B5400702889 /* YRQRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRQRCodeScanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA953D222997AFE00702889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953E922997AFF00702889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953F422997AFF00702889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA953CC22997AFE00702889 = {
+			isa = PBXGroup;
+			children = (
+				ABA953D722997AFE00702889 /* YRScanner */,
+				ABA953EF22997AFF00702889 /* YRScannerTests */,
+				ABA953FA22997AFF00702889 /* YRScannerUITests */,
+				ABA953D622997AFE00702889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA953D622997AFE00702889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA953D522997AFE00702889 /* YRScanner.app */,
+				ABA953EC22997AFF00702889 /* YRScannerTests.xctest */,
+				ABA953F722997AFF00702889 /* YRScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA953D722997AFE00702889 /* YRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				ABA953D822997AFE00702889 /* AppDelegate.swift */,
+				ABA953DA22997AFE00702889 /* ViewController.swift */,
+				ABA9540922997B5400702889 /* YRQRCodeScanner.swift */,
+				ABA953DC22997AFE00702889 /* Main.storyboard */,
+				ABA953E222997AFF00702889 /* Assets.xcassets */,
+				ABA953E422997AFF00702889 /* LaunchScreen.storyboard */,
+				ABA953E722997AFF00702889 /* Info.plist */,
+				ABA953DF22997AFE00702889 /* YRScanner.xcdatamodeld */,
+			);
+			path = YRScanner;
+			sourceTree = "<group>";
+		};
+		ABA953EF22997AFF00702889 /* YRScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA953F022997AFF00702889 /* YRScannerTests.swift */,
+				ABA953F222997AFF00702889 /* Info.plist */,
+			);
+			path = YRScannerTests;
+			sourceTree = "<group>";
+		};
+		ABA953FA22997AFF00702889 /* YRScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA953FB22997AFF00702889 /* YRScannerUITests.swift */,
+				ABA953FD22997AFF00702889 /* Info.plist */,
+			);
+			path = YRScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA953D422997AFE00702889 /* YRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA9540022997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScanner" */;
+			buildPhases = (
+				ABA953D122997AFE00702889 /* Sources */,
+				ABA953D222997AFE00702889 /* Frameworks */,
+				ABA953D322997AFE00702889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRScanner;
+			productName = YRScanner;
+			productReference = ABA953D522997AFE00702889 /* YRScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA953EB22997AFF00702889 /* YRScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA9540322997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerTests" */;
+			buildPhases = (
+				ABA953E822997AFF00702889 /* Sources */,
+				ABA953E922997AFF00702889 /* Frameworks */,
+				ABA953EA22997AFF00702889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA953EE22997AFF00702889 /* PBXTargetDependency */,
+			);
+			name = YRScannerTests;
+			productName = YRScannerTests;
+			productReference = ABA953EC22997AFF00702889 /* YRScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA953F622997AFF00702889 /* YRScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA9540622997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerUITests" */;
+			buildPhases = (
+				ABA953F322997AFF00702889 /* Sources */,
+				ABA953F422997AFF00702889 /* Frameworks */,
+				ABA953F522997AFF00702889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA953F922997AFF00702889 /* PBXTargetDependency */,
+			);
+			name = YRScannerUITests;
+			productName = YRScannerUITests;
+			productReference = ABA953F722997AFF00702889 /* YRScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA953CD22997AFE00702889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yogesh Rathore";
+				TargetAttributes = {
+					ABA953D422997AFE00702889 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					ABA953EB22997AFF00702889 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = ABA953D422997AFE00702889;
+					};
+					ABA953F622997AFF00702889 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = ABA953D422997AFE00702889;
+					};
+				};
+			};
+			buildConfigurationList = ABA953D022997AFE00702889 /* Build configuration list for PBXProject "YRScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA953CC22997AFE00702889;
+			productRefGroup = ABA953D622997AFE00702889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA953D422997AFE00702889 /* YRScanner */,
+				ABA953EB22997AFF00702889 /* YRScannerTests */,
+				ABA953F622997AFF00702889 /* YRScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA953D322997AFE00702889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA953E622997AFF00702889 /* LaunchScreen.storyboard in Resources */,
+				ABA953E322997AFF00702889 /* Assets.xcassets in Resources */,
+				ABA953DE22997AFE00702889 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953EA22997AFF00702889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953F522997AFF00702889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA953D122997AFE00702889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA953DB22997AFE00702889 /* ViewController.swift in Sources */,
+				ABA953D922997AFE00702889 /* AppDelegate.swift in Sources */,
+				ABA953E122997AFE00702889 /* YRScanner.xcdatamodeld in Sources */,
+				ABA9540A22997B5400702889 /* YRQRCodeScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953E822997AFF00702889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA953F122997AFF00702889 /* YRScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA953F322997AFF00702889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA953FC22997AFF00702889 /* YRScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA953EE22997AFF00702889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA953D422997AFE00702889 /* YRScanner */;
+			targetProxy = ABA953ED22997AFF00702889 /* PBXContainerItemProxy */;
+		};
+		ABA953F922997AFF00702889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA953D422997AFE00702889 /* YRScanner */;
+			targetProxy = ABA953F822997AFF00702889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA953DC22997AFE00702889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA953DD22997AFE00702889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA953E422997AFF00702889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA953E522997AFF00702889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA953FE22997AFF00702889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA953FF22997AFF00702889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA9540122997AFF00702889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y9X3FMY6G;
+				INFOPLIST_FILE = YRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA9540222997AFF00702889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y9X3FMY6G;
+				INFOPLIST_FILE = YRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA9540422997AFF00702889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRScanner.app/YRScanner";
+			};
+			name = Debug;
+		};
+		ABA9540522997AFF00702889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRScanner.app/YRScanner";
+			};
+			name = Release;
+		};
+		ABA9540722997AFF00702889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YRScanner;
+			};
+			name = Debug;
+		};
+		ABA9540822997AFF00702889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.YRScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YRScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA953D022997AFE00702889 /* Build configuration list for PBXProject "YRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA953FE22997AFF00702889 /* Debug */,
+				ABA953FF22997AFF00702889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA9540022997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA9540122997AFF00702889 /* Debug */,
+				ABA9540222997AFF00702889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA9540322997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA9540422997AFF00702889 /* Debug */,
+				ABA9540522997AFF00702889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA9540622997AFF00702889 /* Build configuration list for PBXNativeTarget "YRScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA9540722997AFF00702889 /* Debug */,
+				ABA9540822997AFF00702889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABA953DF22997AFE00702889 /* YRScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABA953E022997AFE00702889 /* YRScanner.xcdatamodel */,
+			);
+			currentVersion = ABA953E022997AFE00702889 /* YRScanner.xcdatamodel */;
+			path = YRScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABA953CD22997AFE00702889 /* Project object */;
+}
